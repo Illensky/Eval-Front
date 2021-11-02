@@ -157,3 +157,58 @@ body {
     transform: scale(1.05);
     z-index: 99;
 }
+
+@media screen and (max-width: 1188px) {
+    #main {
+        margin: 0;
+        width: 100vw;
+        display: block;
+    }
+
+    .case {
+        width: 100vw;
+        display: block;
+    }
+
+    #prof {
+        float: left;
+    }
+
+    #pres {
+        width: 100vw;
+        padding: 20px;
+        height: 260px;
+    }
+
+    #img {
+        display: block;
+        float: left;
+        width: 320px;
+        height: auto;
+    }
+
+    #img img {
+        width: 100vw;
+        float: left;
+    }
+
+    #pres h1 {
+        display: block;
+        text-align: center;
+        margin: 0;
+    }
+
+    #pres div button {
+        margin: 30px 5vw;
+        width: 100px;
+        height: 35px;
+    }
+
+    #img, #educ, #blog, #contact, #folio, #prof {
+        right: 0;
+    }
+
+    #buttons {
+        width: 100vw;
+    }
+}
