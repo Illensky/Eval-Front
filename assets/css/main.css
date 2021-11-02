@@ -5,8 +5,11 @@
     vertical-align: baseline;
 }
 
-#main {
+body {
     background-color: #d0d0d0;
+}
+
+#main {
     color: #ffffff;
     font-family: 'Open Sans', sans-serif;
     width: 1188px;
