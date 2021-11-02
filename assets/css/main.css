@@ -183,7 +183,7 @@ body {
     #img {
         display: block;
         float: left;
-        width: 320px;
+        width: 100vw;
         height: auto;
     }
 
@@ -199,9 +199,13 @@ body {
     }
 
     #pres div button {
-        margin: 30px 5vw;
+        margin: 20px 2vw;
         width: 100px;
         height: 35px;
+    }
+
+    #pres_right {
+        float: right;
     }
 
     #img, #educ, #blog, #contact, #folio, #prof {
