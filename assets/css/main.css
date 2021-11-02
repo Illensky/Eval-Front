@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    vertical-align: baseline;
+}
+
+#main {
+    background-color: #d0d0d0;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    width: 1188px;
+    margin: 30px auto;
+}
+
+#items {
+    width: 720px;
+    display: inline-block;
+}
+
+#img {
+    position: relative;
+    display: inline-block;
+    width: 468px;
+    height: 702px;
+    clear: both;
+    float: right;
+    right: 18px;
+}
+
+#pres {
+    width: 468px;
+    background-color: #35bc7a;
+}
+
+.case {
+    position: relative;
+    display: inline-block;
+    width: 234px;
+    height: 234px;
+}
+
+.case:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 50px 3px rgba(0,0,0,0.7);
+    transform: scale(1.05);
+    z-index: 99;
+}
+
+#prof {
+    right: 18px;
+    float: right;
+    background-color: #ff9e00;
+}
+
+#exp {
+    background-color: #1e8bc4;
+    clear: both;
+}
+
+#educ {
+    background-color: #f15a49;
+    clear: both;
+    right: 5px;
+}
+
+#blog {
+    background-color: #35bc7a;
+    right: 10px;
+}
+
+#social {
+    background-color: #f86925;
+}
+
+#contact {
+    background-color: #1e8bc4;
+    right: 5px;
+}
+
+#folio {
+    background-color: #f86925;
+    right: 10px;
+}
+
+#img #buttons {
+    position: relative;
+    bottom: 380px;
+    width: 100%;
+}
+
+#buttons button {
+    margin: 0 15px;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    border: 4px solid rgba(0, 0, 0, 0.5);
+    background-color: rgba(128, 128, 128, 0.42);
+}
+
+#buttons button:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 50px 3px rgba(0,0,0,0.7);
+    transform: scale(1.05);
+}
+
+#right {
+    float: right;
+}
+
+.icon {
+    position: relative;
+    top: 60px;
+    text-align: center;
+    display: block;
+    font-size: 70px;
+}
+
+.case_text {
+    position: relative;
+    display: block;
+    text-align: center;
+    top: 70px;
+    font-weight: bold;
+}
+
+#pres h1 {
+    display: block;
+    text-align: center;
+    margin: 30px 0;
+}
+
+#pres span {
+    display: block;
+    text-align: center;
+    font-size: 18px;
+}
+
+#pres div button {
+    font-size: 13px;
+    margin: 30px 60px;
+    width: 100px;
+    height: 35px;
+    color: white;
+    font-weight: bold;
+    background-color: #35bc7a;
+    border-radius: 1px;
+    border: white 2px solid;
+}
+
+#pres div button:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 50px 3px rgba(255, 255, 255, 0.38);
+    transform: scale(1.05);
+    z-index: 99;
+}
