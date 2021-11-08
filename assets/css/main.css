@@ -152,7 +152,7 @@ body {
 
 @media screen and (max-width: 1170px) {
     #main {
-        margin: 0;
+        margin: 0px auto;
         width: 468px;
     }
 
