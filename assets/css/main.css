@@ -12,23 +12,18 @@ body {
 #main {
     color: #ffffff;
     font-family: 'Open Sans', sans-serif;
-    width: 1188px;
+    width: 1170px;
     margin: 30px auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 #items {
-    width: 720px;
-    display: inline-block;
-}
-
-#img {
-    position: relative;
-    display: inline-block;
-    width: 468px;
-    height: 702px;
-    clear: both;
-    float: right;
-    right: 18px;
+    width: 702px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 #pres {
@@ -37,8 +32,6 @@ body {
 }
 
 .case {
-    position: relative;
-    display: inline-block;
     width: 234px;
     height: 234px;
 }
@@ -51,25 +44,19 @@ body {
 }
 
 #prof {
-    right: 18px;
-    float: right;
     background-color: #ff9e00;
 }
 
 #exp {
     background-color: #1e8bc4;
-    clear: both;
 }
 
 #educ {
     background-color: #f15a49;
-    clear: both;
-    right: 5px;
 }
 
 #blog {
     background-color: #35bc7a;
-    right: 10px;
 }
 
 #social {
@@ -78,18 +65,23 @@ body {
 
 #contact {
     background-color: #1e8bc4;
-    right: 5px;
 }
 
 #folio {
     background-color: #f86925;
-    right: 10px;
+}
+
+#img {
+    display: inline-block;
+    width: 468px;
+    height: 702px;
 }
 
 #img #buttons {
     position: relative;
-    bottom: 380px;
+    bottom: 40%;
     width: 100%;
+    z-index: 99;
 }
 
 #buttons button {
@@ -158,38 +150,35 @@ body {
     z-index: 99;
 }
 
-@media screen and (max-width: 1188px) {
+@media screen and (max-width: 1170px) {
     #main {
         margin: 0;
-        width: 100vw;
-        display: block;
+        width: 468px;
     }
 
     .case {
-        width: 100vw;
         display: block;
     }
 
-    #prof {
-        float: left;
-    }
-
     #pres {
-        width: 100vw;
         padding: 20px;
         height: 260px;
     }
 
+    #folio {
+        width: 468px;
+    }
+
     #img {
         display: block;
-        float: left;
-        width: 100vw;
-        height: auto;
+        width: 468px;
+        clear: both;
+        left: 0;
+        bottom: 0;
     }
 
     #img img {
-        width: 100vw;
-        float: left;
+        width: 100%;
     }
 
     #pres h1 {
@@ -208,11 +197,18 @@ body {
         float: right;
     }
 
-    #img, #educ, #blog, #contact, #folio, #prof {
-        right: 0;
+    #buttons {
+        width: 100vw;
+    }
+}
+
+@media screen and (max-width: 467px) {
+
+    .case, #pres, #folio {
+        width: 100vw;
     }
 
-    #buttons {
+    #img {
         width: 100vw;
     }
 }
